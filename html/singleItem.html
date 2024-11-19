@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="../css/grid.css">
+    <link rel="styleSheet" href="../css/singleItem.css">
+    <link rel="styleSheet" href="../css/massege.css">
+
+    <title>🥰</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="./basket.html">Basket </a>
+        <a href="./items.html">‖ Items ‖</a>
+        <a href="../metirial/אודות.png"> About</a>
+    </div>
+
+    <article>
+
+
+        <form id="form">
+            <h2 id="title" class="text"></h2><br>
+            <nav  class="text" id="price"></nav>
+            <label class="text">בחר כמות</label>
+            <div>
+                <input type="button" class="btnQ" id="decreaseQuantity" value="-">
+                <input type="button" class="btnQ" id="qty" value="1">
+                <input type="button" class="btnQ" id="increaseQuantity" value="+">
+            </div>
+            <br>
+            <label class="text">צבע</label>
+            <input type="color" id="color" name="Color" value="#E14AB5">
+            <br><br> <br><br>
+            
+            <input type="button" id="basket" class="text" name="להוספה לסל" value="להוספה לסל">
+        </form>
+
+
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img id="img1">
+            </div>
+
+            <div class="mySlides fade">
+                <img id="img2">
+            </div>
+
+            <div class="mySlides fade">
+                <img id="img3">
+            </div>
+
+            <br>
+
+        </div>
+    </article>
+    <div id="snackbar">נוסף בהצלחה</div>
+
+    <script src="../js/DB.js"> </script>
+    <script src="../js/global.js"></script>
+    <script src="../js/singleItem.js"></script>
+
+</body>
+
+</html>

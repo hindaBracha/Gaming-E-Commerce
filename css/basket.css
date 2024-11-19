@@ -1,0 +1,56 @@
+/* body{
+direction: ltr;}  */
+table { 
+    margin: auto;
+    margin-top: 150px;
+    border-collapse: collapse;
+    width: 70%;
+}
+#div1{
+    margin: auto;
+    margin-top: 150px; 
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #ff00a691;
+}
+
+#bColor {
+    width: 40px;
+    height: 40px;
+    padding: 1px;;
+    border: none;
+}
+
+#bImg {
+    width: 150px;
+    height: 180px;
+
+}
+
+#btnPymant {
+    padding: 8px 8px;
+    border: 1px solid #ff28a5;
+    background-color: #ff28a584;
+    border-radius: 4px;
+    width: 130px;
+    text-align: center;
+    direction: rtl;
+}
+
+#btnPymant:hover {
+    border: 1px solid #000000;
+    background-color: #ff28a5e9;
+}
+
+#pymant {
+    margin-top: 15px;
+    /* float: left; */
+    /* position: fixed; */
+}

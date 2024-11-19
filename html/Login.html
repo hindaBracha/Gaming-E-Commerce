@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Login.css" >
+    <title>Login📲</title>
+</head>
+<body>
+    <div id="Login" class="clslogin">
+    <form action="../html/items.html" class="form">
+        <fieldset id="f1">
+            <legend>Login</legend>
+                    <label sm="ln">שם משתמש </label><br>
+                    <input type="text" id="sm" placeholder="שם משתמש " minlength="8"  required autocomplete="username"><br>
+                    <label  class="lblsm" id="lblsm"> לא נמצא שם משתמש </label><br> 
+                    <label >סיסמא</label><br> 
+                    <input type="password" id="password" placeholder="סיסמא" minlength="8"  required autocomplete="given-password"><br><br>
+                    <label  class="lblpw" id="lblpw">סיסמא שגויה</label><br>  
+                    <input type="button" class="btns" id="btnenter" value="הכנס">
+                    <input type="button" class="btns" id="btnsine" value="אין לך עדיין חשבון??">
+        </fieldset>
+</form>
+</div><br>
+<div id="sign" class="clssign">
+<form action="../html/items.html" class="form" id="fsign">   
+        <fieldset id="f2">
+            <legend>sign in</legend>
+            <label>שם משתמש </label><br>
+            <input type="text" id="nun" placeholder="בחר שם משתמש" minlength="8"  required autocomplete="username"><br>
+            <label  class="lblun" id="lblun">שם משתמש תפוס</label><br> 
+            <label >סיסמא</label><br>
+            <input type="password" id="password1" placeholder="בחר סיסמא" minlength="8"  required autocomplete="given-password"> <br>
+            <label  class="my_label" id="lable">הסיסמה צריכה להכיל אות גדולה סימן ושמונה תווים</label><br> 
+            <label >אימות סיסמא</label><br>
+            <input type="password" id="password2" placeholder="אימות סיסמא" minlength="8"  required autocomplete="given-password2"><br>
+            <label >בחר סגנון צבע אתר</label><br>
+            <input type="radio" id="bluck" name="color" required ><label >שחור</label><br>
+            <input type="radio" id="white" name="color" required ><label >לבן</label><br>
+            <input type="button" id="btns" class="btns" value="הרשמה והתחברות">
+            <input type="button" id="return" class="btns" value="חזרה">
+            <br><br>
+        </fieldset>
+    </form>
+    </div><br>
+    <script src="../js/Login.js"> </script>
+</body>
+</html>

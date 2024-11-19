@@ -1,0 +1,93 @@
+article {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        "img itext";
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 110%;
+    height: 110%;
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+    grid-area: img;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    /*גורם להבב*/
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+#form {
+    grid-area: itext;
+    text-align: left;
+direction: rtl;
+}
+
+#basket {
+    padding: 8px 8px;
+    border: 1px solid #ff28a5;
+    background-color: #ff28a584;
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+    direction: rtl;
+}
+
+#basket:hover {
+    border: 1px solid #000000;
+    background-color: #ff28a5e9;
+}
+.btnQ{
+    width: 30px;
+}
+/*מקרים של רספונסביות */
+@media (max-width:1300px) {
+    article {
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 50% 50%;
+        grid-template-areas:
+            "img itext";
+    }
+
+    img {
+        width: 70%;
+        height: 70%;
+
+    }
+
+}
+
+@media (max-width:800px) {
+    article {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 100%;
+        grid-template-areas:
+            "img "
+            "itext";
+    }
+
+    img {
+        width: 70%;
+        height: 70%;
+    }
+    #form {
+        text-align: center;
+    }
+
+}

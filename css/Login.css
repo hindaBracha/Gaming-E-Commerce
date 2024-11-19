@@ -1,0 +1,77 @@
+body {
+  background-image: url(../metirial/רקע\ שקוף.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+
+div {
+  width: 300px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #ffffff9e;
+  padding: 20px;
+}
+
+legend {
+  font-size: xx-large;
+  font-family: fantasy;
+  text-align: left
+}
+
+label {
+  font-size: large;
+}
+
+input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btns {
+  padding: 8px 8px;
+  border: 1px solid #ff28a5;
+  background-color: #ff28a584;
+  border-radius: 4px;
+  width: 130px;
+  text-align: center;
+  direction: rtl;
+}
+
+.btns:hover {
+  border: 1px solid #000000;
+  background-color: #ff28a5e9;
+}
+
+.sign {
+  display: none;
+}
+
+.clslogin {
+  margin-top: 10%;
+  display: block;
+}
+
+.clssign {
+  margin-top: 5%;
+  display: none;
+}
+
+.my_label {
+  display: none;
+  color: #ffffff;
+}
+
+.lblun {
+  display: none;
+}
+
+.lblsm {
+  display: none;
+}
+
+.lblpw {
+  display: none;
+}

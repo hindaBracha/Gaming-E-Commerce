@@ -1,0 +1,8 @@
+body{
+    background-image:url(../metirial/רקע\ לאינדקסgif.gif) ;
+    background-repeat: no-repeat;/*ללא חזרה*/
+    background-size: cover;/*מכסה את הכול*/
+    background-attachment: fixed;/*לא זז*/
+    margin-top: 15%;
+}
+/*-------------------------〰️---------------------------------*/
